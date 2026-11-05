@@ -1,14 +1,14 @@
-﻿# Tasks
+# Tasks
 
-Implementation is blocked until the specifications have been reviewed and the user explicitly requests the apply workflow. All boxes intentionally remain unchecked. Capability contracts live in specs/; design.md defines architecture, bounds, formulas, and launch inputs.
+The user authorized Phase 1 only. Stop for review after tasks 1.1 through 1.5; later phases require a new explicit instruction. Capability contracts live in specs/; design.md defines architecture, bounds, formulas, and launch inputs.
 
 ## 1. Phase 1 - Foundation
 
-- [ ] 1.1 Initialize Next.js App Router with React, strict TypeScript, Tailwind, supported Node.js LTS, and a lockfile; verify the starter production build and typecheck succeed.
-- [ ] 1.2 Configure Vitest, Playwright, lint, typecheck, build, and test scripts; verify a minimal smoke test runs locally without external service credentials.
-- [ ] 1.3 Establish the source/content/server/test boundaries described in design.md, typed page/tool identifiers, en-US formatting, and validated public/server environment configuration; verify server secrets cannot be imported by client entry points and document the structure.
-- [ ] 1.4 Create reusable buttons, cards, labeled fields, errors, result panels, tables, and layout tokens; verify keyboard focus, contrast, and a 320 CSS pixel component preview.
-- [ ] 1.5 Document local setup, architecture, commands, environment examples without secrets, and the later approval/launch gates; verify a clean local checkout can follow the setup instructions.
+- [x] 1.1 Initialize Next.js App Router with React, strict TypeScript, Tailwind, supported Node.js LTS, and a lockfile; verify the starter production build and typecheck succeed.
+- [x] 1.2 Configure Vitest, Playwright, lint, typecheck, build, and test scripts; verify a minimal smoke test runs locally without external service credentials.
+- [x] 1.3 Establish the source/content/server/test boundaries described in design.md, typed page/tool identifiers, en-US formatting, and validated public/server environment configuration; verify server secrets cannot be imported by client entry points and document the structure.
+- [x] 1.4 Create reusable buttons, cards, labeled fields, errors, result panels, tables, and layout tokens; verify keyboard focus, contrast, and a 320 CSS pixel component preview.
+- [x] 1.5 Document local setup, architecture, commands, environment examples without secrets, and the later approval/launch gates; verify a clean local checkout can follow the setup instructions.
 
 ## 2. Phase 2 - Public Website
 
